@@ -21,3 +21,21 @@ In this project, we are using Amazon review data to:
 ![''](git_readme_images/image_3.png)
 ![''](git_readme_images/image_4.png)
 ![''](git_readme_images/image_5.png)
+![''](git_readme_images/image_6.png)
+
+### Fake Reviews?
+Fake reviews on Amazon can:
+
+- Mislead customers.
+- Create unfair competition.
+- Damage Amazon's reputation.
+- Reduce consumer confidence.
+- Pose legal risks.
+![''](git_readme_images/image_7.png)
+![''](git_readme_images/image_8.png)
+
+[Link_to csv of fake reviews](https://github.com/Hirann97/Amazon_product_review_Analysis/tree/main/findings)
+
+
+  
+
