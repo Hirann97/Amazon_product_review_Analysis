@@ -11,3 +11,6 @@ In this project, we are using Amazon review data to:
 ## data
   we are using the Stanford data for this project
   [Link_to data](https://cseweb.ucsd.edu/~jmcauley/datasets/amazon/links.html)
+
+  !''](git_readme_images/image_1.png)
+
