@@ -52,7 +52,7 @@ Fake reviews on Amazon can:
 
 - As Hyper-tuned Linear SVC  is the best model, selecting that as the final model
 
-  ## An API for sentiment Analysis
+## An API for sentiment Analysis
 
   ![''](git_readme_images/image_12.png)
 
@@ -62,8 +62,12 @@ Fake reviews on Amazon can:
 
 -
 ![''](git_readme_images/image_13.png)
+![''](git_readme_images/image_20.png)
 ![''](git_readme_images/image_15.png)
 ![''](git_readme_images/image_16.png)
+
+# Dashboard Created using tableau.
+-
 ![''](git_readme_images/image_17.png)
   
 
