@@ -36,6 +36,27 @@ Fake reviews on Amazon can:
 
 [Link_to csv of fake reviews](https://github.com/Hirann97/Amazon_product_review_Analysis/tree/main/findings)
 
+## Creating a Classification Model.
+
+-we've developed three distinct models leveraging Multinomial Naïve Bayes, Logistic Regression, and Linear Support Vector Classification (SVC) techniques.
+-We harnessed the power of TF-IDF (Term Frequency-Inverse Document Frequency) for text vectorization.
+-The bellow table shows how these models performed;
+
+![''](git_readme_images/image_x.png)
+
+- The hyper-tuned Linear SVC model had the best results compared to all the others.
+
+- MultinomialNB model takes less time for prediction.
+
+- Hyper-tuned Linear SVC model takes less time than  Logistic
+
+- As Hyper-tuned Linear SVC  is the best model, selecting that as the final model
+
+  
+
+
+
+
 
   
 
