@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Analysis Result</title>
+  <style>
+    body {
+      background-image: url('static/alex-lvrs-2zDw14yCYqk-unsplash2.jpg');
+      background-size: cover;
+      margin: 0;
+    }
+
+    h1 {
+      font-size: 2em;
+      text-align: center;
+    }
+
+    p {
+      font-size: 1.5em;
+      text-align: center;
+    }
+
+    ul {
+      list-style-type: none;
+      padding-left: 20px;
+    }
+
+    li {
+      font-size: 1.5em;
+      text-align: center;
+    }
+
+    .pie-chart {
+      width: 50%;
+      margin: 0 auto;
+    }
+
+    .bar-graph {
+      width: 50%;
+      margin: 0 auto;
+    }
+  </style>
+</head>
+<body>
+  <h1>Analysis Result</h1>
+  <p>Total Reviews: {{ total_reviews }}</p>
+
+  <h2>Sentiment Distribution</h2>
+  <img class="pie-chart" src="/static/pie_chart.png" alt="Pie Chart">
+
+  <h2>Sentiment Counts</h2>
+  <ul>
+    {% for sentiment, count in sentiment_counts.items() %}
+      <li>{{ sentiment }}: {{ count }}</li>
+    {% endfor %}
+  </ul>
+
+  <h2>Bar Graph of Overall Ratings</h2>
+  <img class="bar-graph" src="static/bar_graph.png" alt="Bar Graph">
+
+</body>
+</html>

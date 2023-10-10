@@ -1,0 +1,35 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Web App</title>
+    <!-- Include any additional CSS styles or libraries you may need -->
+</head>
+<body>
+    <header>
+        <h1 class="text-center text-lg text-gray-800 w-full h-7 bg-yellow-300 font-extrabold">Amazon Review sentiment app</h1>
+    </header>
+    <main>
+        <section>
+            <h2 class="font-mono">Sentiment Analysis on csv file</h2>
+            <form method="post" action="/analyze" enctype="multipart/form-data">
+                <div>
+                    <label for="file">Upload CSV File:</label>
+                    <input type="file" name="file" id="file">
+                </div>
+                <button type="submit">Analyze File</button>
+            </form>
+        </section>
+        <section>
+            <h2 class='font-mono'>Enter Sentence for Sentiment Analysis</h2>
+            <form method="post" action="/analyze-sentence">
+                <div>
+                    <label for="sentence">Enter Sentence:</label>
+                    <textarea name="sentence" id="sentence" rows="3"></textarea>
+                </div>
+                <button type="submit">Analyze Sentence</button>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
