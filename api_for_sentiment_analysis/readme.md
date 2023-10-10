@@ -7,14 +7,14 @@ We can do 2 functions on the home page;
 
 ## Result 1
  - This is for the singular review
-![''](api_for_sentiment_analysis/readme_images_api/api_2.png)
+![''](readme_images_api/api_2.png)
 
 -
 -
 ## Result_2
  - This is for the CSV files
-![''](api_for_sentiment_analysis/readme_images_api/api_3.png)
-![''](api_for_sentiment_analysis/readme_images_api/api_4.png)
+![''](readme_images_api/api_3.png)
+![''](readme_images_api/api_4.png)
 
 
    
