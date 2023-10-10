@@ -3,7 +3,7 @@ We can do 2 functions on the home page;
   - We can paste a review in the 'Enter sentence column'.
   - We can add a CSV file with reviews to find the overall sentiment of the file.
 
-![''](api_for_sentiment_analysis/readme_images_api/api_1.png)
+![''](readme_images_api/api_1.png)
 
 ## Result 1
  - This is for the singular review
